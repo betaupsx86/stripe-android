@@ -85,6 +85,7 @@ internal abstract class BasePaymentSheetActivity : AppCompatActivity() {
     }
 }
 
+
 val EMOJI_FONT_SIZE = 36.sp
 val MAIN_FONT_SIZE = 18.sp
 val SUB_FONT_SIZE = 14.sp

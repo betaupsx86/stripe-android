@@ -153,7 +153,9 @@ class PaymentSessionActivity : AppCompatActivity() {
         }
     }
 
-    private fun createShippingInfoDescription(shippingInformation: ShippingInformation?): String {
+    private fun
+
+         createShippingInfoDescription(shippingInformation: ShippingInformation?): String {
         return if (shippingInformation != null) {
             listOfNotNull(
                 shippingInformation.name,
