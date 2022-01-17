@@ -25,7 +25,7 @@ dependencies {
     implementation libraries.androidx.navigation.fragment.ktx
     implementation libraries.androidx.navigation.ui.ktx
     implementation libraries.androidx.activity.ktx
-    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.android.material:material:1.5.0'
 
     implementation 'com.github.kittinunf.fuel:fuel:2.3.1'
 
@@ -51,7 +51,7 @@ dependencies {
     // Integration with observables
     implementation "androidx.compose.runtime:runtime-livedata:$composeVersion"
 
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.8.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
